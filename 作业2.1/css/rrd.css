@@ -165,10 +165,10 @@ visibility: hidden;
 	text-decoration: none;
 	background: #08c;
 }
-.headerfour img{
+.headerfour a{
+	height: 356px;
 	display: block;
-	position: relative;
-	left: -230px;
+	background: url(../images/scroll.jpg)50% 50% no-repeat;
 }
 .containerone .three{
 	float: left;
