@@ -3,7 +3,6 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/rrd.css">
-	<link rel="stylesheet" href="css/reset.css">
 	<title>rrd-index</title>
 </head>
 <body>
@@ -26,12 +25,13 @@
 				<li><a href="">我要理财</a></li>
 				<li><a href="">我要借款</a></li>
 				<li><a href="">新手指引</a></li>
-				<li><a href="" onmouseover="show()" onmouseout="hide()" >关于我们<span></span></a></li>
-			</ul>
-			<ul id="menu" onmouseover="show()" onmouseout="hide()">
-				<li><a href="">创始团队</a></li>
-				<li><a href="">公司动态</a></li>
-				<li><a href="">招贤纳士</a></li>
+				<li class="l-position"><a href="" onmouseover="show()" onmouseout="hide()" >关于我们<span></span>
+				<ul id="menu" onmouseover="show()" onmouseout="hide()">
+					<li><a href="">创始团队</a></li>
+					<li><a href="">公司动态</a></li>
+					<li><a href="">招贤纳士</a></li>
+				</ul>
+				</a></li>
 			</ul>
 		</div>
 	</div>
@@ -283,15 +283,6 @@
 			</div>
 		</div>
 	</div>
-<script scr="js/rrd.js">
-	function show(){
-		var menu = document.getElementById("menu");
-		menu.style.display="block";
-	}
-	function hide(){
-		var menu = document.getElementById("menu");
-		menu.style.display="none";
-	}
-</script>
+	<script src="js/rrd.js"></script>
 </body>
 </html>
