@@ -203,6 +203,7 @@ visibility: hidden;
 .containerone .three a{
 	text-decoration: none;
 	display: block;
+	width: 100px;
 }
 .containerone .three span{
 	font: 24px/45px "Microsoft Yahei",sans-serif;
